@@ -1,0 +1,55 @@
+h1{
+    font-size: 1cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-size: 0.7cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  background-image: url("./assets/download\ \(2\).jpeg");
+  background-position: fixed;
+    background-size: COVER;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+}
+.index{
+    position:fixed;
+    height: 100%;
+    left: 0;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+    background-color: black;
+    color:aliceblue;
+}
+
+.index ul  {
+   display: flex;
+   flex-flow: column;
+   flex-direction: column-reverse;
+   gap: 90px;
+   
+}
+.index ul li{
+    display: flex;
+    transform: rotate(-90deg);
+}
+.contentmain {
+color: rgb(255, 255, 255);
+}
+a{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color:aqua;
+    background-color: transparent;
+}
+a:hover{
+    color:greenyellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
